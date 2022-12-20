@@ -17,15 +17,38 @@ console.log("pepper",pepper);
 console.log("water",water);
 console.log("salt",salt);
 
-/*let cheeseSauce = egg + cheese;
-console.log(cheeseSauce)
+let cheeseSauce = egg + cheese;
+console.log("add eggs with cheese",cheeseSauce)
 
 let dashOfPepper = pepper -1;
-console.log(dashOfPepper)
+pepper -=1;
+//console.log(dashOfPepper)
 let eggyCheese = cheeseSauce + dashOfPepper;
-console.log(eggyCheese)
+console.log("add a dashOfPeper", eggyCheese)
+
+let pot = water + salt;
+console.log("boil water with pinch of salt", pot)
+
+pot += spaghetti;
+console.log("put saghetti in water",pot);
+let pastaWater = 200 +2;
+console.log("put some water aside",pastaWater);
+pot -= pastaWater;
+salt -= 2;
+let absorbsionAmount = 2;
+let cookingWater = spaghetti * absorbsionAmount;
+
+console.log(cookingWater);
+
+let discardedWater = water - pastaWater-cookingWater;
 
 
+
+console.log(discardedWater);
+
+
+
+/*
 BigBowl = BigBowl + .25*pan;
 //console.log(BigBowl);
 
