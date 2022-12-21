@@ -1,5 +1,5 @@
-//exercise #2
 
+/*Exersise 2*/
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +9,23 @@
     <title>Garage Valuater</title>
 </head>
 <body>
-    <script></script>
+    <script>
+        const totalCars = prompt("How many cars are in your garage?", "number of cars")
+        const valueOfCars = prompt("average cost of a car?", "average car value")
+
+        const numberOfMotos = prompt("how many motos are in your garage?", "number of motos")
+        const valueOfMotos = prompt("average cost of a moto?", "average moto value")
+
+        const numberOfBikes = prompt("how many bikes are in your garage?", "number of bikes")
+        const valueOfBikes = prompt("average cost of a bike?", "average bike value")
+
+        const carsValue = totalCars * valueOfCars
+        const motosValue = numberOfMotos * valueOfMotos
+
+        const bikesValue = numberOfBikes * valueOfBikes
+        const totalValue = carsValue + motosValue + bikesValue
+
+        alert("The Value of Your Garage is roughly:", + totalValue +"$")
+    </script>
 </body>
 </html>
